@@ -75,7 +75,7 @@ Seemingly, as Spark clusters usually run on remote machines, it's usual to use *
 
 ### :family: Contributing
 
-Please see [CONTRIBUTING.md]().
+Please see [CONTRIBUTING.md](./CONTRIBUTING.md).
 
 ### :books: Resources
 
@@ -88,4 +88,4 @@ Please see [CONTRIBUTING.md]().
 
 ### :mortar_board: License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[Apache License 2.0](./LICENSE.md)
