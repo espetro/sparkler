@@ -34,6 +34,8 @@ So far, it has only being tested on
 
 `git clone https://github.com/espetro/sparkler.git`
 
+Download the Apache Spark distribution and unzip the repo inside its folder. Then copy `sparkler.jar` (with/out its .exe, .sh equivalents) to the Apache root folder.
+
 
 
 ### :arrow_forward: Usage
@@ -68,6 +70,7 @@ Once at least a master and a worker has been deployed, you can submit Spark jobs
 + R using built-in [SparkR](https://spark.apache.org/docs/latest/sparkr.html) or [sparklyr](https://spark.rstudio.com/); see this [example](https://spark.apache.org/docs/latest/sparkr.html#starting-up-sparksession).
 + C#, F# and .NET using [Mobius](https://github.com/Microsoft/Mobius); see this [word-count example](https://github.com/Microsoft/Mobius/blob/master/notes/running-mobius-app.md#wordcount-example-batch).
 + Julia using [Spark.jl](https://github.com/dfdx/Spark.jl); see this [example](https://juliacomputing.com/blog/2017/12/12/julia-and-spark.html#sparkjl).
++ MATLAB using [Tall Arrays](https://www.mathworks.com/discovery/matlab-hadoop-and-spark.html); see this [example](https://www.mathworks.com/help//compiler/spark/example-on-deploying-applications-to-spark-using-the-matlab-api-for-spark.html).
 
 
 
