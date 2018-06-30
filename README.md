@@ -26,7 +26,7 @@ So far, it has only being tested on
 * Windows 8.1, 10, Ubuntu 16.04
 * [Java JRE 1.8.0](http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html)
 * (Already compiled) Apache Spark 2.11.8
-* winutils (if using Windows OS)
+* [winutils](https://github.com/steveloughran/winutils) (if using Windows OS)
 
 
 
@@ -44,7 +44,7 @@ So far, it has only being tested on
 
   > Start the app, and press `Start` button on the Master tab. To stop it, press `Finish`. You can see the executors (jobs) and workers connected at [http://localhost:8080/](http://localhost:8080/).
   >
-  > The master Spark's URL will be written on the upper field
+  > The master Spark's URL will be written on the upper field.
 
 
 
@@ -75,7 +75,7 @@ Seemingly, as Spark clusters usually run on remote machines, it's usual to use *
 
 ### :family: Contributing
 
-Please see [CONTRIBUTING.md]().
+Please see [CONTRIBUTING.md](./CONTRIBUTING.md).
 
 ### :books: Resources
 
@@ -88,4 +88,4 @@ Please see [CONTRIBUTING.md]().
 
 ### :mortar_board: License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[Apache License 2.0](./LICENSE)
