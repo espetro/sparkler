@@ -58,7 +58,9 @@ Download the Apache Spark distribution and unzip the repo inside its folder. The
   >  Start the app on the Slave tab and introduce the Master's URL (`spark://address:port`). Optionally, you can select the amount of CPU/Memory resources the worker will use.
   > You can see the executors (jobs) and worker information at [http://localhost:8081/](http://localhost:8081/).
 
-  
+
+
+Take into account that either the Slave or Master **must be killed pressing `FINISH`**, as exiting the program won't stop the background processes.
 
 
 
